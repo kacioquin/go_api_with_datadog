@@ -10,5 +10,5 @@ func main() {
 
 	routes.AppRoutes(app)
 
-	app.Run("localhost:5000")
+	app.Run(":8081")
 }
